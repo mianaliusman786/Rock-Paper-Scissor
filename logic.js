@@ -3,8 +3,8 @@ let compScore = 0;
 
 const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
-const userScoreElement = document.getElementById('user-score');
-const compScoreElement = document.getElementById('comp-score');
+const userScoreElement = document.querySelector('#user-score'); // Replaced getElementById with querySelector
+const compScoreElement = document.querySelector('#comp-score'); // Replaced getElementById with querySelector
 
 const gencompchoice = () => {
     const options = ["rock", "paper", "scissor"];
