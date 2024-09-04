@@ -6,6 +6,29 @@
 }
 
 
+/* Background color animation */
+body {
+    animation: colorChange 10s linear infinite;
+    height: 100vh; /* Full viewport height */
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: #ff9a9e; /* Light pink */
+    }
+    25% {
+        background-color: #fbc2eb; /* Light purple */
+    }
+    50% {
+        background-color: #a6c0fe; /* Light blue */
+    }
+    75% {
+        background-color: #d4fc79; /* Light green */
+    }
+    100% {
+        background-color: #ff9a9e; /* Light pink (back to start) */
+    }
+}
 
 h1 {
     background-color: black;
